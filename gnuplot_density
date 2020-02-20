@@ -1,0 +1,5 @@
+#!/usr/bin/gnuplot --persist
+set dgrid3d 50,50
+set view map
+set pm3d
+splot 'out.dat'
