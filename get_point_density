@@ -18,7 +18,7 @@ inP = open(sys.argv[1])
 outP = open(sys.argv[2], 'w')
 
 #initialize grid array - it will contain the number of angles within this grid
-grid_array = [[0 for col in range(int(sys.argv[7]))] for row in range(int(sys.argv[8]))]
+grid_array = [[0 for col in range(int(sys.argv[8]))] for row in range(int(sys.argv[7]))]
 grid_size_x = float(sys.argv[3])/float(sys.argv[7])
 grid_size_y = float(sys.argv[4])/float(sys.argv[8])
 i_abs = 0
